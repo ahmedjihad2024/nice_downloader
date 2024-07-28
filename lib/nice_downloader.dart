@@ -250,7 +250,7 @@ class Downloader implements DownloaderBase {
         if ((stopwatch.elapsedMicroseconds) > 1000000) { // Update speed every second
           var elapsedSeconds = stopwatch.elapsedMilliseconds / 1000000;
           var speed = SpeedFormatter.formatSpeed(
-              (downloadedBytes - previousBytes).toInt(), elapsedSeconds);
+              (downloadedBytes - previousBytes < 0 ? 0 : downloadedBytes - previousBytes).toInt(), elapsedSeconds);
           previousBytes = downloadedBytes;
           stopwatch
             ..reset()

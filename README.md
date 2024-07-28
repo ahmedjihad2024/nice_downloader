@@ -5,7 +5,7 @@ This Dart library provides a comprehensive solution for managing file downloads 
 ## Key Features:
 
 * **Pause/Resume:** Easily pause and resume downloads.
-* **Cancel:** Cancel ongoing downloads.
+* **Cancel:** Cancel ongoing downloads and delete the file.
 * **Progress Tracking:** Monitor download progress with detailed information (bytes downloaded, total bytes, speed).
 * **Network Handling:**Checks and waits for internet connectivity.
 * **File Existence Check:** Resumes downloads if the file already exists.
