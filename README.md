@@ -2,6 +2,10 @@
 
 This Dart library provides a comprehensive solution for managing file downloads in your Flutter applications. It offers features like pausing, resuming, cancelingdownloads, tracking progress, and handling network connectivity.
 
+
+https://github.com/user-attachments/assets/e2c462d3-dcfa-4811-9dea-8f729b667fb3
+
+
 ## Key Features:
 
 * **Pause/Resume:** Easily pause and resume downloads.
