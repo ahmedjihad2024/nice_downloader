@@ -1,6 +1,14 @@
 name: nice_downloader
 description: "A clean, extensible file downloader for Flutter with IDM-style segmented downloads, pause/resume/cancel, persistence, retry policies and an interceptor pipeline."
 version: 1.3.0
+repository: https://github.com/ahmedjihad2024/nice_downloader
+issue_tracker: https://github.com/ahmedjihad2024/nice_downloader/issues
+topics:
+  - download
+  - downloader
+  - download-manager
+  - http
+  - network
 
 environment:
   sdk: '>=3.4.4 <4.0.0'

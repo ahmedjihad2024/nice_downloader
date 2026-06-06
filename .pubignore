@@ -1,0 +1,19 @@
+# Note: a .pubignore REPLACES .gitignore for publishing, so it must list
+# everything that should stay out of the package archive.
+
+# Build & tooling output
+build/
+.dart_tool/
+.idea/
+.vscode/
+*.iml
+*.log
+
+# Generated Flutter tooling files
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+
+# Lockfiles (libraries must not publish them)
+pubspec.lock
+example/pubspec.lock
