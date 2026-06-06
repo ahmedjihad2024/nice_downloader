@@ -4,8 +4,6 @@
 
 A powerful, easy-to-use file downloader for Flutter — downloads files **fast** using multiple parallel connections (like IDM), with pause/resume, speed limiting, and automatic recovery from network drops.
 
-https://github.com/user-attachments/assets/e2c462d3-dcfa-4811-9dea-8f729b667fb3
-
 ## ✨ What it can do
 
 | | |
