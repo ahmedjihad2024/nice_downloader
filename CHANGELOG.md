@@ -1,3 +1,7 @@
+## 1.3.1
+
+* Rewrote the README as a friendly step-by-step usage guide.
+
 ## 1.3.0
 
 ### Added
